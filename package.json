@@ -1,6 +1,6 @@
 {
   "name": "sequelize-plugin-timestamp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A plugin for sequelize which helps you to track update time for each field\n",
   "main": "index.js",
   "files": [
