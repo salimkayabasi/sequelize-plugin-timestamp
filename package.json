@@ -3,9 +3,11 @@
   "version": "1.0.1",
   "description": "A plugin for sequelize which helps you to track update time for each field\n",
   "main": "index.js",
-  "directories": {
-    "lib": "src"
-  },
+  "files": [
+    "src/**/*.js",
+    "!src/**/*.test.js",
+    "index.js"
+  ],
   "dependencies": {},
   "devDependencies": {
     "eslint": "^5.13.0",
