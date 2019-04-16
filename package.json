@@ -2,29 +2,22 @@
   "name": "sequelize-plugin-timestamp",
   "version": "1.0.2",
   "description": "A plugin for sequelize which helps you to track update time for each field\n",
-  "main": "index.js",
+  "homepage": "https://github.com/salimkayabasi/sequelize-plugin-timestamp#readme",
+  "bugs": {
+    "url": "https://github.com/salimkayabasi/sequelize-plugin-timestamp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salimkayabasi/sequelize-plugin-timestamp.git"
+  },
+  "license": "ISC",
+  "author": "",
   "files": [
     "src/**/*.js",
     "!src/**/*.test.js",
     "index.js"
   ],
-  "dependencies": {},
-  "devDependencies": {
-    "eslint": "^5.13.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^4.0.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jest": "^22.2.2",
-    "eslint-plugin-json": "^1.3.2",
-    "eslint-plugin-markdown": "^1.0.0",
-    "eslint-plugin-prettier": "^3.0.1",
-    "jest": "^24.0.0",
-    "prettier": "^1.16.4",
-    "sequelize": "^4.42.0"
-  },
-  "peerDependencies": {
-    "sequelize": "^4.42.0"
-  },
+  "main": "index.js",
   "scripts": {
     "lint": "eslint --ext js,json,md .",
     "lint:fix": "npm run lint --- --fix",
@@ -34,14 +27,21 @@
     "test": "NODE_ENV=test jest --forceExit --ci --errorOnDeprecated --detectOpenHandles",
     "test:watch": "npm run test --- --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/salimkayabasi/sequelize-plugin-timestamp.git"
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.17.1",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-plugin-json": "^1.4.0",
+    "eslint-plugin-markdown": "^1.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.7.1",
+    "prettier": "^1.17.0",
+    "sequelize": "^5.6.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/salimkayabasi/sequelize-plugin-timestamp/issues"
-  },
-  "homepage": "https://github.com/salimkayabasi/sequelize-plugin-timestamp#readme"
+  "peerDependencies": {
+    "sequelize": "^5.6.0"
+  }
 }
